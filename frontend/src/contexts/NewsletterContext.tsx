@@ -33,33 +33,33 @@ export const NewsletterProvider: React.FC<{ children: React.ReactNode }> = ({ ch
   const articles: Article[] = [
     {
       id: '1',
-      title: 'The Future of Digital Innovation',
-      excerpt: 'Exploring emerging technologies and their transformative impact on modern business practices and consumer experiences.',
-      content: 'In today\'s rapidly evolving digital landscape, innovation has become the cornerstone of successful business transformation. Companies that embrace emerging technologies are not just staying competitive—they\'re defining the future of their industries.',
-      author: 'Sarah Johnson',
+      title: 'The Future of Digital Transformation: Beyond Traditional Boundaries',
+      excerpt: 'How emerging technologies are reshaping industries and creating new paradigms for business success in the digital age.',
+      content: 'Digital transformation has evolved beyond simple technology adoption to become a fundamental reimagining of how organizations operate, compete, and deliver value in an increasingly connected world.',
+      author: 'Dr. Sarah Chen',
       date: '2024-01-15',
-      readTime: '5 min read',
+      readTime: '8 min read',
       category: 'Technology'
     },
     {
       id: '2',
-      title: 'Sustainable Design Practices',
-      excerpt: 'How modern design principles are evolving to create environmentally conscious and socially responsible solutions.',
-      content: 'Sustainable design has moved beyond being a trend to become a fundamental requirement in modern creative practices. Designers are now considering the long-term environmental and social impact of their work.',
-      author: 'Michael Chen',
+      title: 'Sustainable Innovation: The New Competitive Advantage',
+      excerpt: 'Why sustainability-driven innovation is becoming the key differentiator for forward-thinking organizations.',
+      content: 'Companies that integrate sustainability into their innovation processes are not just doing good—they\'re building resilient, future-ready businesses that outperform their competitors.',
+      author: 'Michael Rodriguez',
       date: '2024-01-12',
-      readTime: '4 min read',
-      category: 'Design'
+      readTime: '6 min read',
+      category: 'Innovation'
     },
     {
       id: '3',
-      title: 'The Art of Storytelling in Business',
-      excerpt: 'Understanding how compelling narratives drive engagement and build lasting connections with audiences.',
-      content: 'Every successful business has a story to tell. The art of storytelling in business goes far beyond marketing—it\'s about creating authentic connections that resonate with your audience on a deeper level.',
-      author: 'Emma Rodriguez',
+      title: 'The Psychology of Decision-Making in Complex Systems',
+      excerpt: 'Understanding how cognitive biases and system complexity interact to influence critical business decisions.',
+      content: 'In our interconnected world, decision-making has become increasingly complex. Understanding the psychological factors at play is crucial for leaders navigating uncertainty.',
+      author: 'Dr. Emily Watson',
       date: '2024-01-10',
-      readTime: '6 min read',
-      category: 'Business'
+      readTime: '7 min read',
+      category: 'Research'
     }
   ];
 
